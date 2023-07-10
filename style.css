@@ -30,14 +30,14 @@
 
 /* header section starts  */
 .headerSection {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .headerSectionWrapper {
   /* background-color: rgb(225, 101, 101); */
   display: flex;
   justify-content: space-evenly;
-  width: 90%;
+  width: 88%;
   margin: auto;
 }
 
@@ -95,11 +95,83 @@
 
 /* featured flower starts  */
 .featuredFlower {
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
+  margin-bottom: 60px;
 }
 
 .featuredFlowerWrapper {
-  background-color: rgb(233, 71, 71);
+  /* background-color: rgb(85, 202, 252); */
+  width: 87%;
+  margin: auto;
+}
+
+.featuredTopeHeading {
+  /* background-color: rgb(191, 241, 63); */
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.featuredTopPara {
+  /* background-color: aquamarine; */
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 45%;
+  margin: auto;
+  margin-bottom: 28px;
+}
+
+.featuredCard {
+  /* background-color: rgb(244, 255, 29); */
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .card1 { */
+.commonCard {
+  width: 355px;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.card1 {
+  background: rgba(167, 33, 98, 0.15);
+}
+.card2 {
+  background: rgba(5, 151, 160, 0.15);
+}
+.card3 {
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.cardWrapper {
+  width: 50%;
+  height: 84%;
+}
+
+.cardWrapper img {
+  height: 100%;
+  width: 100%;
+}
+
+.cardWrapper {
 }
 
 /* featured flower ends */
+
+/* icon section starts  */
+
+.iconSection {
+}
+
+.iconSectionWrapper {
+}
+
+/* icon section starts  */
