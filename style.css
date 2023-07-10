@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* share styles  */
+.pinkBg {
+  background: rgba(229, 84, 115, 0.1);
+}
+
+.btnPrimary {
+  border-radius: 0.3125rem;
+  background: #e55473;
+  border: 0;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.headingStyle {
+  color: #272727;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+/* main css starts  */
+
+/* header section starts  */
+.headerSection {
+  margin-bottom: 50px;
+}
+
+.headerSectionWrapper {
+  /* background-color: rgb(225, 101, 101); */
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: auto;
+}
+
+.headerLeft {
+  /* background-color: rgb(245, 174, 92); */
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headerLeftWrapper {
+  /* background-color: aqua; */
+  width: 85%;
+  margin: auto;
+}
+
+.headerHeading {
+  font-size: 22px;
+  /* background-color: red; */
+  margin-bottom: 10px;
+}
+
+.headerDescription {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 14px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.headBtn {
+  padding: 11px 20px;
+}
+
+.headerRight {
+  /* background-color: rgb(133, 235, 61); */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.headRightImg {
+  width: 400px;
+  height: 460px;
+  padding-top: 20px;
+  margin-right: 50px;
+}
+
+.headRightImg img {
+  height: 100%;
+  width: 100%;
+}
+
+/* header section ends  */
+
+/* featured flower starts  */
+.featuredFlower {
+  background-color: antiquewhite;
+}
+
+.featuredFlowerWrapper {
+  background-color: rgb(233, 71, 71);
+}
+
+/* featured flower ends */
